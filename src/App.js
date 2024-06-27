@@ -26,7 +26,7 @@ function App() {
             type="text"
             value={task}
             onChange={(e) => setTask(e.target.value)}
-            placeholder="Enter a task"
+            placeholder="Enter a task to do"
           />
           <button onClick={handleAddTask}>Add Task</button>
         </div>
