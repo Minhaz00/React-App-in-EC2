@@ -1,6 +1,12 @@
 # Deploy React app on EC2 instance using github actions
 
-In this lab, you will learn how to automate the deployment of a React application to an Amazon EC2 instance using GitHub Actions. GitHub Actions is a CI/CD tool integrated into GitHub, enabling you to automate workflows for building, testing, and deploying your code. By the end of this lab, you will have a fully automated pipeline that takes your React app from your GitHub repository to a running instance on AWS, ensuring continuous integration and continuous deployment.
+In this lab, you will learn how to automate the deployment of a React application to an Amazon EC2 instance using GitHub Actions. 
+
+![alt text](https://github.com/Minhaz00/NodeJS-Tasks/blob/main/14.%20Deploy%20Express%20App%20in%20EC2%20Using%20Github%C2%A0Action/images/image-17.png?raw=true)
+
+GitHub Actions is a CI/CD tool integrated into GitHub, enabling you to automate workflows for building, testing, and deploying your code. 
+
+By the end of this lab, you will have a fully automated pipeline that takes your React app from your GitHub repository to a running instance on AWS, ensuring continuous integration and continuous deployment.
 
 ## Setup React App locally
 
