@@ -196,7 +196,7 @@ This CSS code styles the app header, task input section, and the task list.
 
 - Follow the commands provided to set up the runner on your EC2 instance.
 
-    ![alt text](image-2.png)
+    ![alt text](https://github.com/Minhaz00/React-App-in-EC2/blob/main/image/image-2.png?raw=true)
 
     You will see the `github action` console  after the final command (marked portion).
 
