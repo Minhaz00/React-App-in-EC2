@@ -198,13 +198,11 @@ This CSS code styles the app header, task input section, and the task list.
 
     ![alt text](image-2.png)
 
-    You will get something like this after the final command (marked portion):
-
-    ![alt text](https://github.com/Minhaz00/NodeJS-Tasks/blob/main/14.%20Deploy%20Express%20App%20in%20EC2%20Using%20Github%C2%A0Action/images/image-6.png?raw=true)
+    You will see the `github action` console  after the final command (marked portion).
 
     After that, keep hitting `Enter` to continue with the default settings. Now if you go to the **github repository** > **settings** > **runners**, you will get something like this:
 
-    ![alt text](image-4.png)
+    ![alt text](https://github.com/Minhaz00/React-App-in-EC2/blob/main/image/image-4.png?raw=true)
 
     It is in offline state. Go to the SSH PowerShell and use the following command:
 
@@ -215,7 +213,7 @@ This CSS code styles the app header, task input section, and the task list.
 
     Now the runner in the github repository is no more in Offline state:
 
-    ![alt text](image-5.png)
+    ![alt text](https://github.com/Minhaz00/React-App-in-EC2/blob/main/image/image-5.png?raw=true)
 
 
 
@@ -226,10 +224,7 @@ This CSS code styles the app header, task input section, and the task list.
 
 ### Create GitHub Actions Workflow
    - In your repository, go to the “Actions” tab.
-   - Choose the Node.js workflow template.
-
-        ![alt text](https://github.com/Minhaz00/NodeJS-Tasks/blob/main/14.%20Deploy%20Express%20App%20in%20EC2%20Using%20Github%C2%A0Action/images/image-9.png?raw=true)
-
+   - Choose the `Node.js` workflow template.
    - Configure/Change it as follows:
 
         ```yaml
@@ -286,7 +281,7 @@ Now go to `_work` folder. In this folder you will see your react app directory f
 
     Now go to your instance, open the public IPv4 DNS link:
 
-    ![alt text](image.png)
+    ![alt text](https://github.com/Minhaz00/React-App-in-EC2/blob/main/image/image.png?raw=true)
 
     You will see Nginx home page.
 
@@ -347,7 +342,7 @@ Now go to `_work` folder. In this folder you will see your react app directory f
 
      Now go to your instance, open the public IPv4 DNS link to see your react app from ec2 instance:
 
-     ![alt text](image-1.png)
+     ![alt text](https://github.com/Minhaz00/React-App-in-EC2/blob/main/image/image-1.png?raw=true)
  
 
 ## Conclusion
